@@ -91,7 +91,7 @@ export default function Navbar() {
             <ul className="navbar-nav ms-auto">
               <li className="nav-item">
                 <Link className="botonTotal-btn" to={"/cart"}>
-                  &#x1F6D2;Total: {getTotal()}
+                  &#x1F6D2;Cart: Total: ${getTotal()}
                 </Link>
               </li>
             </ul>
